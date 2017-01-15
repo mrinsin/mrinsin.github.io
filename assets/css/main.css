@@ -2413,13 +2413,13 @@
 	}
 
 	.purple {
-		color: purple;
+		color: 	#9614d0;
 	}
 	.blue {
 		color: #3b9af0;
 	}
 	.red {
-		color: #b20000;
+		color: #c6463c;
 	}
 	.green {
 		color: #65ba14;
@@ -2605,6 +2605,10 @@
 				}
 
 /* Image */
+	.image {
+		height: 325px;
+		width: auto;
+	}
 
 	.image {
 		border-radius: 0.25em;
