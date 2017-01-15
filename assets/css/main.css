@@ -2605,6 +2605,7 @@
 				}
 
 		.nyu img {
+			border-radius: 10%;
 			height: 195px;
 			float: left;
 			margin-top: -40px;
