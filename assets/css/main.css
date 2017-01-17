@@ -2606,10 +2606,10 @@
 
 		.nyu img {
 			border-radius: 10%;
-			height: 195px;
+			height: 125px;
 			float: left;
-			margin-top: -40px;
-			margin-left: -65px;
+			margin-top: -10px;
+			margin-left: -75px;
 			margin-right: 20px;
 			width: auto;
 		}
@@ -2618,6 +2618,59 @@
 			text-align: right;
 			margin-left: 30px;
 			font-size: 17px;
+		}
+
+		.french img {
+			float: left;
+			margin-left: -90px;
+			margin-top: -9px;
+		}
+
+		.french p {
+			text-align: right;
+
+		}
+
+		.learn p {
+			text-align: right;
+			margin-top: 10px;
+		}
+
+		.learn img {
+			float: left;
+			margin-left: -90px;
+		}
+
+		.volunteer img {
+			float: left;
+			height: 115px;
+			margin-left: -75px;
+		}
+
+		.volunteer p {
+			text-align: right;
+			margin-top: 10px;
+		}
+
+		.anisha img {
+			height: 115px;
+			float: left;
+			margin-left: -75px;
+		}
+
+		.anisha p {
+			text-align: right;
+			margin-top: 10px;
+		}
+
+		.art img {
+			height: 115px;
+			float: left;
+			margin-left: -75px;
+		}
+
+		.art p {
+			
 		}
 
 /* Image */
