@@ -2605,13 +2605,9 @@
 				}
 
 		.nyu img {
-			border-radius: 10%;
-			height: 125px;
+			height: 115px;
 			float: left;
-			margin-top: -10px;
 			margin-left: -75px;
-			margin-right: 20px;
-			width: auto;
 		}
 
 		.nyu p {
@@ -2666,11 +2662,23 @@
 		.art img {
 			height: 115px;
 			float: left;
-			margin-left: -75px;
+			margin-left: -92px;
+			margin-top: -15px;
 		}
 
 		.art p {
-			
+			text-align: right;
+		}
+
+		.cranes img {
+			height: 115px;
+			float: left;
+			margin-left: -75px;
+			margin-top: -35px;
+		}
+
+		.cranes p {
+			text-align: right;
 		}
 
 /* Image */
