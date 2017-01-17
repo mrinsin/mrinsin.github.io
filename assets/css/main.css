@@ -1648,6 +1648,10 @@
 		line-height: 1.75;
 	}
 
+	#three {
+		font-family: 'Padauk', sans-serif;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
@@ -2607,7 +2611,7 @@
 		.nyu img {
 			height: 115px;
 			float: left;
-			margin-left: -75px;
+			margin-left: -70px;
 		}
 
 		.nyu p {
@@ -2645,7 +2649,7 @@
 
 		.volunteer p {
 			text-align: right;
-			margin-top: 10px;
+			margin-top: -5px;
 		}
 
 		.anisha img {
@@ -2656,7 +2660,7 @@
 
 		.anisha p {
 			text-align: right;
-			margin-top: 10px;
+			margin-top: -5px;
 		}
 
 		.art img {
@@ -2680,6 +2684,20 @@
 		.cranes p {
 			text-align: right;
 		}
+
+		.travel img {
+			height: 115px;
+			float: left;
+			margin-left: -92px;
+			margin-top: -10px;
+		}
+
+		.travel p {
+			text-align: right;
+			margin-top: -25px;
+		}
+
+
 
 /* Image */
 	.image {
@@ -3248,6 +3266,20 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+	}
+
+	.connect td, tr {
+		background-color: #171719;
+		border: solid 0px rgba(0, 0, 0, 0);
+		border-bottom: solid 2px rgba(0, 0, 0, 0);
+		border-top: solid 2px rgba(0, 0, 0, 0);
+		text-align: left;
+		padding-right: 75px;
+		margin-top: 15px;
+	}
+	.connect img {
+		float: right;
+		margin-top: -15px;
 	}
 
 	table {
