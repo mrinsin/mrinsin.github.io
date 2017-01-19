@@ -2633,12 +2633,13 @@
 
 		.learn p {
 			text-align: right;
-			margin-top: 10px;
+			margin-top: -5px;
 		}
 
 		.learn img {
 			float: left;
 			margin-left: -90px;
+			margin-bottom: 10px;
 		}
 
 		.volunteer img {
@@ -2694,7 +2695,8 @@
 
 		.travel p {
 			text-align: right;
-			margin-top: -25px;
+			padding-bottom: 20px;
+			margin-top: -15px;
 		}
 
 
@@ -3274,12 +3276,13 @@
 		border-bottom: solid 2px rgba(0, 0, 0, 0);
 		border-top: solid 2px rgba(0, 0, 0, 0);
 		text-align: left;
-		padding-right: 75px;
 		margin-top: 15px;
 	}
 	.connect img {
-		float: right;
+		float: left;
 		margin-top: -15px;
+		margin-right: 25px;
+		padding-right: 33px;
 	}
 
 	table {
