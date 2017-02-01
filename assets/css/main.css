@@ -3294,20 +3294,19 @@
 		overflow-x: auto;
 	}
 
-	.connect td, tr {
+	/*.connect td, tr {
 		background-color: #171719;
 		border: solid 0px rgba(0, 0, 0, 0);
 		border-bottom: solid 2px rgba(0, 0, 0, 0);
 		border-top: solid 2px rgba(0, 0, 0, 0);
 		text-align: left;
-		margin-top: 15px;
 	}
 	.connect img {
 		float: left;
 		margin-top: -15px;
 		margin-right: 25px;
 		padding-right: 33px;
-	}
+	}*/
 
 	table {
 		margin: 0 0 2em 0;
@@ -3334,7 +3333,6 @@
 			font-size: 1em;
 			font-weight: bold;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
 		}
 
 		table thead {
