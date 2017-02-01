@@ -1652,12 +1652,26 @@
 		font-family: 'Padauk', sans-serif;
 	}
 
+		/*regular laoptop*/
 		@media screen
 		 and (min-device-width: 1200px;)
 		 and (max-device-width: 1680px;) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
+			}
+
+		}
+
+			/*tablet*/
+			/* Portrait and Landscape */
+		@media only screen
+		  and (min-device-width: 768px)
+		  and (max-device-width: 1024px)
+		  and (-webkit-min-device-pixel-ratio: 1) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
 			}
 
 		}
@@ -1672,6 +1686,8 @@
 				body, input, select, textarea {
 					font-size: 8pt;
 				}
+
+
 		}
 
 		/* Landscape iphone 6 */
@@ -2630,7 +2646,6 @@
 		.nyu img {
 			height: 115px;
 			float: left;
-			margin-left: -70px;
 		}
 
 		.nyu p {
@@ -2641,7 +2656,6 @@
 
 		.french img {
 			float: left;
-			margin-left: -90px;
 			margin-top: -9px;
 		}
 
@@ -2652,19 +2666,15 @@
 
 		.learn p {
 			text-align: right;
-			margin-top: -5px;
 		}
 
 		.learn img {
 			float: left;
-			margin-left: -90px;
-			margin-bottom: 10px;
 		}
 
 		.volunteer img {
 			float: left;
 			height: 115px;
-			margin-left: -75px;
 		}
 
 		.volunteer p {
@@ -2675,7 +2685,6 @@
 		.anisha img {
 			height: 115px;
 			float: left;
-			margin-left: -75px;
 		}
 
 		.anisha p {
@@ -2686,7 +2695,6 @@
 		.art img {
 			height: 115px;
 			float: left;
-			margin-left: -92px;
 			margin-top: -15px;
 		}
 
@@ -2697,8 +2705,6 @@
 		.cranes img {
 			height: 115px;
 			float: left;
-			margin-left: -75px;
-			margin-top: -35px;
 		}
 
 		.cranes p {
@@ -2708,14 +2714,10 @@
 		.travel img {
 			height: 115px;
 			float: left;
-			margin-left: -92px;
-			margin-top: -10px;
 		}
 
 		.travel p {
 			text-align: right;
-			padding-bottom: 20px;
-			margin-top: -15px;
 		}
 
 
