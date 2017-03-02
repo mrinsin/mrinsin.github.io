@@ -2728,8 +2728,10 @@
 
 /* Image */
 	.image {
-		height: 325px;
+		height: 270px;
+		max-width: 500px;
 		width: auto;
+		padding: 10px;
 	}
 
 	.image {
