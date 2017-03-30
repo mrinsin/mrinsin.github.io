@@ -33,6 +33,10 @@
 		quotes: none;
 	}
 
+	small {
+		padding-left: 30px;
+	}
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -1643,7 +1647,7 @@
 		color: rgba(255, 255, 255, 0.55);
 		font-family: 'Padauk', sans-serif;
 		/*font-family: 'Slabo 27px', serif;*/
-		font-size: 13pt;
+		font-size: 12pt;
 		font-weight: normal;
 		line-height: 1.75;
 	}
