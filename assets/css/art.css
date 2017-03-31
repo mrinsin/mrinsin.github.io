@@ -60,12 +60,12 @@ and (orientation: portrait) {
 
   #first {
     height: 90%;
-    min-width: 667px;
+    min-width: 400px;
   }
 
   #second, #third, #fourth {
     height: 90%;
-    min-width: 667px;
+    min-width: 400px;
   }
 
 }
