@@ -2739,6 +2739,8 @@
 
 	.image {
 		border: 0;
+		display: inline-block;
+		position: relative;
 	}
 
 		.image img {
