@@ -1649,7 +1649,7 @@
 		/*font-family: 'Slabo 27px', serif;*/
 		font-size: 12pt;
 		font-weight: normal;
-		line-height: 1.75;
+		line-height: 1.65;
 	}
 
 	#three {
@@ -1662,7 +1662,7 @@
 		 and (max-device-width: 1680px;) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1688,8 +1688,8 @@
 		  and (orientation: portrait) {
 
 				body, input, select, textarea {
-					font-size: 8pt;
-					max-height: 20%;
+					font-size: 7pt;
+					max-height: 17%;
 				}
 
 
@@ -1703,7 +1703,7 @@
 		  and (orientation: landscape) {
 
 				body, input, select, textarea {
-					font-size: 8pt;
+					font-size: 7pt;
 				}
 
 		}
@@ -1757,7 +1757,7 @@
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.70em;
 	}
 
 		h1.major {
@@ -1785,7 +1785,7 @@
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.70em;
 	}
 
 	h3 {
