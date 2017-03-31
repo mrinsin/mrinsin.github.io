@@ -2651,7 +2651,7 @@
 				}
 
 		.nyu img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2661,7 +2661,7 @@
 		}
 
 		.french img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2675,13 +2675,13 @@
 		}
 
 		.learn img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
 
 		.volunteer img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2691,7 +2691,7 @@
 		}
 
 		.anisha img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2701,7 +2701,7 @@
 		}
 
 		.art img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2711,7 +2711,7 @@
 		}
 
 		.cranes img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2721,7 +2721,7 @@
 		}
 
 		.travel img {
-			min-height: 46px;
+			min-height: 66px;
 			max-height: 88px;
 			float: left;
 		}
@@ -2734,18 +2734,16 @@
 
 /* Image */
 	.image {
-		height: 350px;
+		height: 200px;
 	}
 
 	.image {
-		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 0.25em;
 			display: block;
 		}
 
