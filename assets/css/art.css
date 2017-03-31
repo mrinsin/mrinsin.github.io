@@ -3,6 +3,10 @@
  and (min-device-width: 1200px;)
  and (max-device-width: 1680px;) {
 
+   image {
+     max-width: 70%
+   }
+
    #first {
      height: 100%;
      width: 1680px;
@@ -20,6 +24,10 @@
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+    image {
+      max-width: 70%
+    }
 
     #first {
       height: 100%;
@@ -40,6 +48,10 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
+  image {
+    max-width: 70%
+  }
+
   #first {
     height: 100%;
     width: 667px;
@@ -59,6 +71,10 @@ and (orientation: portrait) {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+    image {
+      max-width: 70%
+    }
+
     #first {
       height: 100%;
       width: 667px;
@@ -71,6 +87,10 @@ and (orientation: portrait) {
 }
 
 		@media screen and (max-width: 360px) {
+
+      image {
+        max-width: 60%
+      }
 
       #first {
         height: 100%;
