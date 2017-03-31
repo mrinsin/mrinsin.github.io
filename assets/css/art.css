@@ -55,7 +55,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
   image {
-    max-width: 340px;
+    max-width: 100%;
   }
 
   #first {
@@ -78,7 +78,7 @@ and (orientation: portrait) {
   and (orientation: landscape) {
 
     image {
-      max-width: 340px;
+      max-width: 100%;
     }
 
     #first {
