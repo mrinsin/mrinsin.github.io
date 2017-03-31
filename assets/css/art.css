@@ -54,18 +54,18 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
-  image {
+  /*image {
     max-width: 50%;
-  }
+  }*/
 
   #first {
     height: 90%;
-    width: 700px;
+    min-width: 667px;
   }
 
   #second, #third, #fourth {
     height: 90%;
-    width: 700px;
+    min-width: 667px;
   }
 
 }
