@@ -1,9 +1,84 @@
-#first {
-  height: 100%;
-  width: 1600px;
+/*regular laoptop*/
+@media screen
+ and (min-device-width: 1200px;)
+ and (max-device-width: 1680px;) {
+
+   #first {
+     height: 100%;
+     width: 1680px;
+   }
+
+   #second {
+     height: 100%;
+     width: 1680px;
+   }
+ }
+
+	/*tablet*/
+	/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #first {
+      height: 100%;
+      width: 1024px;
+    }
+
+    #second {
+      height: 100%;
+      width: 1024px;
+    }
+
 }
 
-#second {
-  height: 100%;
-  width: 1600px;
+/* Portrait iphone 6 */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+  #first {
+    height: 100%;
+    width: 667px;
+  }
+
+  #second {
+    height: 100%;
+    width: 667px;
+  }
+
 }
+
+/* Landscape iphone 6 */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    #first {
+      height: 100%;
+      width: 667px;
+    }
+
+    #second {
+      height: 100%;
+      width: 667px;
+    }
+}
+
+		@media screen and (max-width: 360px) {
+
+      #first {
+        height: 100%;
+        width: 360px;
+      }
+
+      #second {
+        height: 100%;
+        width: 360px;
+      }
+		}
