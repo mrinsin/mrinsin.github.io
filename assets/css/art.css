@@ -14,12 +14,12 @@ body {
    }
 
    #first {
-     height: 90%;
+     height: 99%;
      width: 100%;
    }
 
    #second, #third, #fourth {
-     height: 90%;
+     height: 99%;
      width: 100%;
    }
  }
@@ -36,12 +36,12 @@ body {
     }
 
     #first {
-      height: 80%;
+      height: 99%;
       width: 1024px;
     }
 
     #second, #third, #fourth {
-      height: 80%;
+      height: 99%;
       width: 1024px;
     }
 
@@ -59,12 +59,12 @@ and (orientation: portrait) {
   }*/
 
   #first {
-    height: 90%;
+    height: 100%;
     min-width: 400px;
   }
 
   #second, #third, #fourth {
-    height: 90%;
+    height: 100%;
     min-width: 400px;
   }
 
@@ -82,16 +82,15 @@ and (orientation: portrait) {
     }
 
     #first {
-      max-width: 50%;
-      height: 90%;
-      width: 700px;
+      height: 100%;
+      min-width: 400px;
     }
 
     #second, #third, #fourth {
-      max-width: 50%;
-      height: 90%;
-      width: 700px;
+      height: 100%;
+      min-width: 400px;
     }
+
 }
 
 		@media screen and (max-width: 360px) {
@@ -101,12 +100,12 @@ and (orientation: portrait) {
       }
 
       #first {
-        height: 80%;
+        height: 99%;
         width: 360px;
       }
 
       #second, #third {
-        height: 80%;
+        height: 99%;
         width: 360px;
       }
 		}
