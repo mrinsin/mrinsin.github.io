@@ -1,4 +1,10 @@
+body {
+  background: url('images/back1.png');
+}
+
+
 /*regular laoptop*/
+
 @media screen
  and (min-device-width: 1200px;)
  and (max-device-width: 1680px;) {
