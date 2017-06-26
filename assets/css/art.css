@@ -1,9 +1,20 @@
 body {
   background: url('images/back1.png');
+  font-family: 'Fugaz One', cursive !important;
+
 }
 
+#leftTextBox {
+  background-color: black;
+  text-align: right;
+  padding: 15px;
+  color: pink;
+  font-size: 28px;
+  line-height: 2.0 !important;
 
+}
 /*regular laoptop*/
+
 
 @media screen
  and (min-device-width: 1200px;)
@@ -12,6 +23,11 @@ body {
    image {
      max-width: 850px;
    }
+
+  #leftTextBox {
+    font-size: 28px !important;
+    line-height: 2.0 !important;
+  }
 
    #first {
      height: 100%;
@@ -33,6 +49,12 @@ body {
 
     image {
       max-width: 520px;
+    }
+
+    #leftTextBox {
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+
     }
 
     #first {
@@ -63,6 +85,12 @@ and (orientation: portrait) {
     min-width: 400px;
   }
 
+  #leftTextBox {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+
+  }
+
   #second, #third, #fourth {
     height: 100%;
     min-width: 400px;
@@ -91,12 +119,24 @@ and (orientation: portrait) {
       min-width: 400px;
     }
 
+    #leftTextBox {
+      font-size: 17px !important;
+      line-height: 1.5 !important;
+
+    }
+
 }
 
 		@media screen and (max-width: 360px) {
 
       image {
         max-width: 130px;
+      }
+
+      #leftTextBox {
+        font-size: 18px !important;
+        line-height: 1.5 !important;
+
       }
 
       #first {
