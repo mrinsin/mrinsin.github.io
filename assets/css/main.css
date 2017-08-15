@@ -2653,11 +2653,11 @@
 		.nyu img {
 			min-height: 66px;
 			max-height: 88px;
-			float: left;
+			float: right;
 		}
 
 		.nyu p {
-			text-align: right;
+			text-align: left;
 		}
 
 		.french img {
@@ -2671,23 +2671,23 @@
 		}
 
 		.learn p {
-			text-align: right;
+			text-align: left;
 		}
 
 		.learn img {
 			min-height: 66px;
 			max-height: 88px;
-			float: left;
+			float: right;
 		}
 
 		.volunteer img {
 			min-height: 66px;
 			max-height: 88px;
-			float: left;
+			float: right;
 		}
 
 		.volunteer p {
-			text-align: right;
+			text-align: left;
 		}
 
 		.anisha img {
@@ -2713,11 +2713,11 @@
 		.cranes img {
 			min-height: 66px;
 			max-height: 88px;
-			float: left;
+			float: right;
 		}
 
 		.cranes p {
-			text-align: right;
+			text-align: left;
 		}
 
 		.travel img {
@@ -3314,7 +3314,7 @@
 
 	table {
 		margin: 0 0 2em 0;
-		width: 100%;
+		width: 95%;
 	}
 
 		table tbody tr {
@@ -3328,7 +3328,7 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.50em 0.50em;
 			background-color: #232324;
 		}
 
